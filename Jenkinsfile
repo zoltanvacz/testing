@@ -7,6 +7,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Is this working from git push? pls'
+                echo "heeeee"
             }
         }
     }
