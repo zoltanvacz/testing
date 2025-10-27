@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                echo 'Testing...'
+                echo 'Is this working from git push?'
             }
         }
     }
